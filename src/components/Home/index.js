@@ -31,20 +31,23 @@ const Home = () => {
             <Header />
             <div className="home-body-container">
                 <div className="banner-content-container">
+                    {/* <div className="heading-para">
+                        <h1 className="banner-heading">Bingo</h1>
+                        <p className="banner-para">Well you can’t win the lottery if you don’t have a ticket</p>
+                    </div>
                     <div>
                         <img
                             src="/images/home-banner.png"
                             className="banner-img"
                             alt="Perfume-img"
                         />
-                    </div>
-                    <div className="heading-para">
-                        <h1 className="banner-heading">Bingo</h1>
-                        <p className="banner-para">Well you can’t win the lottery if you don’t have a ticket</p>
-                    </div>
+                    </div> */}
                 </div>
                 {resultsData !== "" ? (
                     <div className="table-container">
+                        <div className="image-container">
+                            <img src="/images/winners.png" alt="trophy-img" className="winners-img" />
+                        </div>
                         <h1 className="welcome">Welcome to WIN</h1>
                         {console.log("first_price >> ", resultsData.first_price.amount)}
                         <table>
