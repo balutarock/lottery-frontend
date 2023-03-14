@@ -5,6 +5,7 @@ import "./index.css";
 
 const Home = () => {
   const [resultsData, setResultsData] = useState("");
+  const [category, setCategory] = useState("1st Category");
   console.log("Results DAta >> ", resultsData);
 
   useEffect(() => {
@@ -56,6 +57,15 @@ const Home = () => {
               />
             </div>
             <h1 className="welcome">Welcome to WIN</h1>
+            <ul>
+              <li>
+                <button type="button">1st Category</button>
+              </li>
+              <li>
+                <button type="button">2st Category</button>
+              </li>
+            </ul>
+            <h1>{category}</h1>
             <table>
               <tr>
                 <th>Prices</th>
