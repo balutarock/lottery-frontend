@@ -1,17 +1,17 @@
 .bg-footer {
-    background-color: #33383c;
-    color:white;
-    padding-top:20px;
-    padding-bottom: 20px;
-    width:100%;
+  background-color: #33383c;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
 }
 
-.footer-container{
-    width:100%;
-    background-color: #33383c;
+.footer-container {
+  width: 100%;
+  background-color: #33383c;
 }
 
-.copy-rights{
-    color:white;
-    text-align: center;
+.copy-rights {
+  color: white;
+  text-align: center;
 }

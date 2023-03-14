@@ -1,165 +1,171 @@
-.home-cotainer{
-    background-color: white;
-    /* background-image:linear-gradient(to right, red , yellow); */
-    min-height: 100vh;
-    /* width:100vw; */
-    width:100%;
+.home-cotainer {
+  background-color: white;
+  /* background-image:linear-gradient(to right, red , yellow); */
+  min-height: 100vh;
+  /* width: 100vw; */
+  width: 100%;
 }
 
-.home-body-container{
-    min-height: 100vh;
-    padding-top:100px;
-    width: 100%;
+.home-body-container {
+  min-height: 100vh;
+  padding-top: 100px;
+  /* width: 100%; */
 }
 
-.banner-content-container{
-    /* background-image:linear-gradient(to right, red , yellow); */
-    background-image: url("../../../public/images/banner1.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    height:400px;
-    width:100%;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding:10px;
+.banner-content-container {
+  /* background-image:linear-gradient(to right, red , yellow); */
+  background-image: url("../../../public/images/banner1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  /* width: 100%; */
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
-.banner-img{
-    width: 300px;
-    height: auto;
+.banner-img {
+  width: 300px;
+  height: auto;
 }
 
-.li-ele{
-    display: flex;
+.li-ele {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-para {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.banner-para {
+  font-size: 15px;
+}
+
+.welcome {
+  font-size: 30px;
+  text-align: center;
+}
+
+.table-container {
+  background-image: url("../../../public/images/nature.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 300px;
+  /* width: 100%; */
+}
+
+span {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+table {
+  /* background-image: linear-gradient(to right, red , yellow); */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr:hover {
+  background-color: coral;
+}
+
+th {
+  background-color: #00c742;
+  /* color: white; */
+  color: black;
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  font-size: 20px;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff,
+    -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+  /* box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3); */
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.winners-img {
+  width: 300px;
+  height: auto;
+}
+
+@media screen and (min-width: 769px) {
+  .banner-content-container {
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
+  }
 
-.heading-para{
-    text-align: center;
-    color:rgb(0, 0, 0);
-}
+  .banner-img {
+    width: 500px;
+  }
 
-.banner-para{
-    font-size:15px;
-}
+  .banner-para {
+    font-size: 20px;
+  }
 
-.welcome{
-    font-size:30px;
-    text-align: center;
-}
+  .banner-heading {
+    font-size: 50px;
+  }
 
-.table-container{
+  .table-container {
     background-image: url("../../../public/images/nature.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left:10px;
-    padding-right:10px;
-    padding-top:10px;
-    padding-bottom:300px;
+    /* width: 100%; */
+    /* padding-top:10px; */
+  }
+
+  th,
+  td {
+    font-size: 18px;
+  }
+
+  .winners-img {
+    background-image: url("../../../public/images/wings.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+  }
 }
 
-span{
-    font-weight: bold;
-    font-size: 15px;
-}
-
-table {
-    /* background-image: linear-gradient(to right, red , yellow); */
-    border-collapse: collapse;
-    width: 100%;
-  }
-
-tr:hover {background-color: coral;}
-
-th {
-    background-color: #00c742;
-    /* color: white; */
-    color:black;
-    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
-  }
-  
-
-th, td {
-    padding: 8px;
-    text-align: center;
-    font-weight: bold;
-    border-bottom: 1px solid #ddd;
-    font-size: 20px;
-    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
-             1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
-    /* box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3); */
-    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
-  }
-
-.image-container{
+@media screen and (min-width: 1024px) {
+  .table-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
 
-.winners-img{
-    width:300px;
-    height: auto;
+  table {
+    width: 70%;
   }
 
-@media screen and (min-width:769px) {
-    .banner-content-container{
-        flex-direction: row;
-    }
-
-    .banner-img{
-        width: 500px;
-    }
-
-    .banner-para{
-        font-size:20px;
-    }
-
-    .banner-heading{
-        font-size:50px;
-    }
-
-    .table-container{
-        background-image: url("../../../public/images/nature.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* padding-top:10px; */
-    }
-
-    th,td{
-        font-size:18px;
-    }
-
-    .winners-img{
-            background-image: url("../../../public/images/wings.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-        width:400px;
-    }
-}
-
-@media screen and (min-width:1024px) {
-    .table-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    table{
-        width: 70%;
-    }
-
-    th, td{
-        text-align: center;
-    }
+  th,
+  td {
+    text-align: center;
+  }
 }

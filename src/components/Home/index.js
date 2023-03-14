@@ -46,7 +46,6 @@ const Home = () => {
             />
           </div> */}
         </div>
-        {console.log("ResultsData >>> ", resultsData.first_price)}
         {resultsData !== "" ? (
           <div className="table-container">
             <div className="image-container">
