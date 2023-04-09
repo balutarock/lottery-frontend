@@ -17,7 +17,7 @@ const Home = () => {
     const options = {
       method: "GET",
     };
-    const response = await fetch(url, options);
+    const response = await fetch(url, options);  
     console.log("response >> ", response);
     if (response.ok === true) {
       const data = await response.json();
@@ -33,8 +33,8 @@ const Home = () => {
       <Header />
       <div className="home-body-container">
         <div className="banner-content-container">
-          {/* <div className="heading-para">
-            <h1 className="banner-heading">Bingo</h1>
+          <div className="heading-para">
+            <h1 className="banner-heading">WIN</h1>
             <p className="banner-para">
               Well you can’t win the lottery if you don’t have a ticket
             </p>
@@ -45,7 +45,7 @@ const Home = () => {
               className="banner-img"
               alt="Perfume-img"
             />
-          </div> */}
+          </div>
         </div>
         <div className="table-container">
           <div className="image-container">
